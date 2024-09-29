@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+header {
+    background-color: #0A0A0A;
+    padding-top: 30px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 70rem;
+    padding: 8px 20px;
+}
+
+.header_top_social ul {
+    display: flex;
+}
+
+.header_top_social li {
+    list-style: none;
+}
+
+.header_top_social li a {
+    color: #fff;
+}
+
+.header_top_social li a:hover {
+    color: #E5BF4A;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header_top_logo {
+    color: #E5BF4A;
+    text-align: center;
+}
+
+.header_top_logo h1 {
+    font-family: "Dancing Script";
+    font-size: 52px;
+}
+
+.header_top_phone .phone {
+    color: #E5BF4A;
+    border: 1px solid #E5BF4A;
+    display: inline-block;
+    padding: 11px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.header_top_phone .phone:hover {
+    background-color: #E5BF4A;
+    color: white;
+}
+
+.header_bottom {
+    margin: auto;
+    /* padding: 30px 50px;  */
+    max-width: 70rem;   
+}
+
+@media (max-width: 768px) {
+    .header_top_social, 
+    .header_top_phone {
+        display: none;
+    } 
+
+    .header_top_logo h1 {
+        font-size: 32px;
+    }
+}

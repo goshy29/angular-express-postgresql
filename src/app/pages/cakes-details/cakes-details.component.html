@@ -1,0 +1,21 @@
+@if (cake) {
+    <section class="content">
+        <div class="description">
+            <h1>Cake Details</h1>
+            <div class="details">
+                <div class="image">
+                    <img [src]="cake.image" [alt]="cake.title">
+                </div>
+                <div class="detail">
+                    <h2>{{cake.title}}</h2> 
+                    <h3>${{cake.price}}</h3> 
+                    <p>{{cake.description}}</p> 
+                </div>
+            </div> 
+        </div> 
+    </section>    
+} @else {
+    <section class="content">
+        <h1>Cake not found!</h1>
+    </section> 
+}

@@ -1,0 +1,237 @@
+.home_section1 {
+    height: 550px;
+    background-image: url("../../../../../public/images/home1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.home_section2 {
+    padding-top: 100px;
+}
+
+.home_section2 .title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.home_section2 .title::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    z-index: 1;
+    background: #E5BF4A;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -29px;
+}
+
+.home_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.home_content h1 {
+    font-family: "Dancing Script";
+    color: white;
+    font-size: 70px;
+}
+
+.about {
+  display: flex;  
+  justify-content: space-around;
+} 
+
+.about_text, .about_img  {
+    width: 45%;
+    padding: 0 10px;
+}
+
+.about_text h2 {
+    color: #E5BF4A;
+    margin-bottom: 30px;
+}
+
+.about_text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.about_img img {
+    width: 100%;
+}
+
+.home_section3 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.home_section3 div {
+    width: 30%;
+    margin: 10px;
+}
+
+.home_section3 img {
+    width: 100%;
+}
+
+.home_section3 h3 {
+    margin: 16px 0;
+}
+
+.home_section3 span {
+    color: #E5BF4A;
+    margin-top: 10px;
+}
+
+.home_section4 .blog {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_section4 .button {
+    background: #E5BF4A;
+    border: 2px solid #E5BF4A;
+    color: #0A0A0A;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 16px 34px;
+    text-transform: uppercase;
+    line-height: 15px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.home_section4 .button:hover,
+.home_section4 .button:active {
+  background-color: #0A0A0A;
+  color: #E5BF4A;
+}
+
+.home_section4 .blog_text {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.home_section5 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.home_section5 .follow {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.home_section5 .follow > h2:first-child {
+    color: #E5BF4A;
+}
+
+.home_section5 .social {
+    margin-top: 50px;
+}
+
+.social_btn {
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 14px 36px 13px 39px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    background: none;
+    border-radius: 0px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+}
+
+.social_btn i {
+    color: #fff;
+    transition: all .4s ease-out 0s;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    right: 15px;
+    top: 2px;
+}
+
+.home_section5 img {
+    width: 100%;
+}
+
+.home_section5 .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.home_section5 .gallery div {
+    width: 22%;
+}
+
+@media (max-width: 992px) {
+    .about {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .about_text, .about_img {
+        width: 80%;
+        text-align: center; 
+    }
+
+    .about_text {
+        text-align: center; 
+    }
+
+    .home_section5 .gallery div {
+        width: 35%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    .home_content {
+        align-items: center; 
+    }
+
+    .home_content h1 {
+        font-size: 38px;
+    }
+
+    .about_text, .about_img {
+        width: 90%;
+    }
+
+    .about_text p {
+        font-size: 12px;
+    }
+
+    .home_section3 {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .home_section3 div, 
+    .home_section5 .gallery div {
+        width: 70%;
+    }
+}

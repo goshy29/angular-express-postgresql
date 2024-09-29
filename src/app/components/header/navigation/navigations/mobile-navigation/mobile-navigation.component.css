@@ -1,0 +1,26 @@
+.mobile_navbar {
+    height: 100%;
+}
+
+.mobile_nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1001;
+    height: 240px;
+    width: 100%;
+    background: #4c4c4c;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    padding-top: 50px;
+}
+
+.close_button {
+    background: none;
+    border: none;
+    font-size: 3.5rem;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+}

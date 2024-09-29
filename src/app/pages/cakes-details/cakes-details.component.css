@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.description {
+    max-width: 55rem;
+    margin: auto;
+}
+
+.description h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.description h2 {
+    color: #E5BF4A;
+    font-family: "Dancing Script";
+    font-size: 50px;
+}
+
+.description h3 {
+    font-size: 24px;
+}
+
+.details {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.image {
+    flex: 40%;
+}
+
+.detail {
+    flex: 60%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.detail h2, 
+.detail h3,
+.detail p {
+    margin: 20px 0;
+}
+
+.detail p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .description h2 {
+        font-size: 40px;
+    }
+
+    .description h3 {
+        font-size: 20px;
+    }
+
+    .details {
+        flex-direction: column;
+    }   
+
+    .detail h2, 
+    .detail h3 {
+        margin: 10px 0;
+        text-align: center;
+    }
+}

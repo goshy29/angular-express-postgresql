@@ -1,0 +1,45 @@
+.detail {
+    text-align: left;
+    max-width: 50rem;
+    margin: auto;
+    margin-top: 12px;
+    padding: 0 10px;
+}
+
+h1 {
+    color: #E5BF4A;
+    font-family: 'Dancing Script';
+    font-size: 34px;
+}
+
+.recipe {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.button button{
+    background: #E5BF4A;
+    border: 2px solid #E5BF4A;
+    color: #0A0A0A;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    line-height: 15px;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.button button:hover,
+.button button:active {
+  background-color: #0A0A0A;
+  color: #E5BF4A;
+}
+
+@media (max-width: 768px) {
+    .recipe {
+        font-size: 12px;
+    }
+}

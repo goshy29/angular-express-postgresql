@@ -1,0 +1,18 @@
+<section class="blog_section1">
+    <div class="blog_content content">
+        <h1>Blog</h1>
+    </div>
+</section>
+<section>
+    <div class="blog_list content">
+        @if (!errorMessage) {
+            @if (blogs.length === 0) {
+                <h1>No Blogs Available</h1>
+            } @else {
+                <app-blogs-list [blogs]="blogs"></app-blogs-list>
+            }      
+        } @else {
+            <h1>{{errorMessage}}</h1>
+        }        
+    </div>
+</section>

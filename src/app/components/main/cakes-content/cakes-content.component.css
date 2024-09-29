@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.cakes_section1 {
+    height: 400px;
+    background-image: url("../../../../../public/images/home1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cakes_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.cakes_content h1 {
+    font-family: "Dancing Script";
+    color: white;
+    font-size: 70px;
+}
+
+.cakes_list {
+    margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+    .cakes_content {
+        align-items: center; 
+    }
+
+    .cakes_content h1 {
+        font-size: 52px;
+    }
+}

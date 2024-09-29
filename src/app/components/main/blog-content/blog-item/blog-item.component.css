@@ -1,0 +1,37 @@
+.item {
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+}
+
+h2 {
+  color: #E5BF4A;
+  font-family: 'Dancing Script';
+  font-size: 34px;
+  padding-top: 10px;
+}
+
+h4 {
+  padding: 12px 0;
+}
+
+.button button{
+    background: #E5BF4A;
+    border: 2px solid #E5BF4A;
+    color: #0A0A0A;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    line-height: 15px;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.button button:hover,
+.button button:active {
+  background-color: #0A0A0A;
+  color: #E5BF4A;
+}

@@ -1,0 +1,11 @@
+<ul class="list">
+    @for (cake of cakes; track cake.id) {
+        <app-cake-item
+            [id]="cake.id"
+            [image]="cake.image"
+            [title]="cake.title"
+            [price]="cake.price"
+            [description]="cake.description">
+        </app-cake-item>
+    }
+</ul>

@@ -1,0 +1,14 @@
+<section class="cakes_section1">
+    <div class="cakes_content content">
+        <h1>Cakes</h1>
+    </div>
+</section>
+<section>
+   <div class="cakes_list content">
+        @if (cakes.length === 0) {
+            <h1>No Cakes Available</h1>
+        } @else {
+            <app-cakes-list [cakes]="cakes"></app-cakes-list>
+        }
+   </div> 
+</section>

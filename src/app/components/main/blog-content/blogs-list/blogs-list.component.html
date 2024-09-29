@@ -1,0 +1,12 @@
+<ul class="list">
+    @for (blog of blogs; track blog.id) {
+        <app-blog-item
+            [id]="blog.id"
+            [title]="blog.title"
+            [username]="blog.username"
+            [email]="blog.email"
+            [date]="dateFormatter(blog.date)"
+            [recipe]="blog.recipe">
+        </app-blog-item>
+    }
+</ul>

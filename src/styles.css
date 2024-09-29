@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Montserrat";
+  background-color: #0A0A0A;
+}
+
+.content {
+  max-width: 70rem;
+  margin: auto;
+  padding: 0 10px;
+}
+
+section {
+  width: 100%;
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

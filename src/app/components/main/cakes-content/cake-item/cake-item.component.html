@@ -1,0 +1,12 @@
+<li class="item">
+    <div class="image">
+        <img [src]="image" [alt]="title">
+    </div>    
+    <div class="description">
+        <h3>{{title}}</h3>    
+        <span>${{price}}</span>
+    </div>
+    <div class="button">
+        <button (click)="handlerShowDetails()">View Details</button>
+    </div>
+</li>

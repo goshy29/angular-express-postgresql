@@ -1,0 +1,11 @@
+<app-main-navigation (openMobileNav)="openMobileNav()"></app-main-navigation>
+
+<app-mobile-nav-wrap *ngIf="isMobileNavOpen" (closeMobileNav)="closeMobileNav()">
+    <app-mobile-navigation (close)="closeMobileNav()">
+        <nav class="mobile_navbar">
+            <ul class="mobile_navbar_list">
+                <app-nav-links (close)="closeMobileNav()"></app-nav-links>
+            </ul>
+        </nav>
+    </app-mobile-navigation>
+</app-mobile-nav-wrap>

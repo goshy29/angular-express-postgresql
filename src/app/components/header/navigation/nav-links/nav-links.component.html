@@ -1,0 +1,12 @@
+<li class="navbar_item">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="close.emit()">Home</a>
+</li>
+<li class="navbar_item">
+    <a routerLink="/cakes" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="close.emit()">Cakes</a>
+</li>
+<li class="navbar_item">
+    <a routerLink="/blog" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="close.emit()">Blog</a>
+</li>
+<li class="navbar_item">
+    <a routerLink="/share" routerLinkActive="active" (click)="close.emit()">Share Recipe</a>
+</li>
