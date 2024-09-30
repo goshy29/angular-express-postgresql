@@ -42,3 +42,15 @@ Backend: Contains all Express.js server-side code and database logic.
 2. name: John Doe
 3. email: johndoe@gmail.com
 4. recipe: This healthy loaf is closer to banana bread than traditional cake. It's made with dried figs, sultanas, oats, nuts, seeds and black tea, all of which provide a natural boost of energy. Heat oven to 170C/150C fan/gas 3½. Pour the tea into a large bowl and stir in the figs, sultanas and oats. Set aside to soak. Meanwhile, line the base and sides of a 1kg loaf tin with baking parchment. Mix together the flour, baking powder, nuts and seeds. Beat the egg into the cooled fruit mixture, then stir the dry ingredients into the wet. Pour into the tin, then level the top and scatter with the extra nuts and sesame seeds.
+
+## PostgreSQL Connection:
+You will find this connection code at directory "backend/utils/db-connection.js".
+
+const sequelize = new Sequelize("database", "username", "password", {
+    host: "localhost",
+    dialect: "postgres"
+});
+
+Replace that sequelize connection properties("database", "username", "password") with your own database credentials for PostgreSQL.
+
+**Note: When you start the application for first time, after successfully post a place by you, database table "place" will be automatically created by Sequelize and you are ready to go.**
