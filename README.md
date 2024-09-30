@@ -36,3 +36,9 @@ Backend: Contains all Express.js server-side code and database logic.
 6. To start the Frontend development server, in the root directory run: npm start    
 7. To start the Backend server, in the backend directory run: npm start
 8. Open the application in your browser: http://localhost:4200
+
+## Example Data to Enter in the User Form: 
+1. title: Fig, nut & seed bread with ricotta & fruit
+2. name: John Doe
+3. email: johndoe@gmail.com
+4. recipe: This healthy loaf is closer to banana bread than traditional cake. It's made with dried figs, sultanas, oats, nuts, seeds and black tea, all of which provide a natural boost of energy. Heat oven to 170C/150C fan/gas 3½. Pour the tea into a large bowl and stir in the figs, sultanas and oats. Set aside to soak. Meanwhile, line the base and sides of a 1kg loaf tin with baking parchment. Mix together the flour, baking powder, nuts and seeds. Beat the egg into the cooled fruit mixture, then stir the dry ingredients into the wet. Pour into the tin, then level the top and scatter with the extra nuts and sesame seeds.
